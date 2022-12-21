@@ -1,5 +1,6 @@
 package example.git;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class DateClass {
@@ -9,6 +10,9 @@ public class DateClass {
      System.out.println("hello world");
      Date d=new Date();
      System.out.println(d);
+     LocalDate ld=LocalDate.now();
+     System.out.println(ld);
+    		 
 	}
 
 }
